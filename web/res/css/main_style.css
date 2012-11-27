@@ -1,0 +1,23 @@
+body
+{
+	background-color:#ccc;
+}
+#main
+{
+	background-color:#fff;
+	width:800px;
+	position: absolute;
+	left:250px;
+	height:auto;
+}
+#headertext
+{
+	color:#fff;
+	position:relative;
+	top:50px;
+}
+#maincontent
+{
+	position:relative;
+	left:10px;
+}
