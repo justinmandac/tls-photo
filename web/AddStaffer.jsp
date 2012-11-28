@@ -81,7 +81,7 @@
             <form id="details" name="details" action="SubmitStaffer.jsp" method="POST">
                 
                 <div class="grid" id="personal">      
-                    <div class="row"> 
+                    <div class="row offset1"> 
                         <h3>Personal Information</h3>  
                     </div>
                     <div class="row offset1 "id="input">
@@ -112,7 +112,7 @@
                </div> <!--PERSONAL:GRID-->   
 
                 <div class="grid" id="contact">      
-                    <div class="row"> 
+                    <div class="row offset1"> 
                         <h3>Contact Details</h3>  
                     </div>
                     <div class="row offset1 "id="input">
@@ -143,7 +143,7 @@
 
                
                 <div class="grid" id="credentials">      
-                    <div class="row"> 
+                    <div class="row offset1"> 
                         <h3>Log-In Credentials</h3>  
                     </div>
                     <div class="row offset1 "id="input">

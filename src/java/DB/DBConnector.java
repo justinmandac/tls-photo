@@ -5,19 +5,18 @@
 package DB;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 /**
  *
- * @author Student
+ * @author Bien Mandac
  */
 public class DBConnector extends ConnectionFactory {
     private String driver="com.mysql.jdbc.Driver";
     private String url="jdbc:mysql://localhost:3306/tlsphoto";
     private String username="root";
-    private String password="root";
+    //private String password="root";
+    private String password ="p@ssword"; //for DLSU computer labs
     
     @Override
     public Connection getConnection()    {

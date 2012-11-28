@@ -85,7 +85,7 @@
              <h2>Add Event</h2>
     <form id="details" name="details" action="SubmitEvent.jsp" method="POST">             
                 <div class="grid" id="general">      
-                    <div class="row"> 
+                    <div class="row offset1"> 
                         <h3>General Information</h3>  
                     </div>
                     <div class="row offset1 "id="input">
@@ -107,7 +107,7 @@
                     </div> <!--INPUT-->                          
                </div> <!--GENERAL:GRID-->   
                 <div class="grid" id="tnd">      
-                    <div class="row"> 
+                    <div class="row offset1"> 
                         <h3>Time and Date</h3>
                     </div>
                     <div class="row offset1 "id="input">
@@ -148,7 +148,7 @@
                </div> <!--TND:GRID-->   
                
                 <div class="grid" id="misc">      
-                    <div class="row"> 
+                    <div class="row offset1"> 
                         <h3>Details</h3>
                     </div>
                     <div class="row offset1 "id="input">
